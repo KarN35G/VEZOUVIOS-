@@ -9,33 +9,42 @@
   <style>
     body {
       font-family: 'Playfair Display', serif;
-      background-color: #1c1c1c;
-      color: #f0e6e6;
+      background-color: #121212;
+      color: #fff0e6;
       margin: 0;
       padding: 0;
     }
     header {
-      background-color: #8B0000;
-      padding: 20px;
+      background-color: #2b0000;
+      padding: 40px 20px;
       text-align: center;
-      color: #fff;
     }
     header h1 {
+      font-size: 3.5em;
       margin: 0;
-      font-size: 3em;
+      color: #ff4d4d;
     }
     header p {
       font-size: 1.2em;
       margin-top: 10px;
+      color: #ffd6cc;
+    }
+    .banner {
+      width: 100%;
+      height: 300px;
+      background-image: url('https://images.unsplash.com/photo-1601924582975-7e6704c8b52c');
+      background-size: cover;
+      background-position: center;
     }
     .section {
-      padding: 40px 20px;
-      max-width: 1000px;
+      max-width: 960px;
       margin: auto;
+      padding: 40px 20px;
     }
     .section h2 {
-      border-bottom: 2px solid #e63946;
+      border-bottom: 2px solid #ff4d4d;
       padding-bottom: 10px;
+      color: #ffa07a;
     }
     .menu-category {
       margin-bottom: 30px;
@@ -44,24 +53,25 @@
       list-style: none;
       padding: 0;
     }
-    ul li {
-      margin: 5px 0;
+    li {
+      margin: 6px 0;
     }
     .pizza-month {
-      background-color: #e63946;
-      padding: 20px;
-      color: #fff;
+      background-color: #ff4d4d;
+      padding: 30px;
       text-align: center;
-      font-size: 1.2em;
-      margin: 20px 0;
+      color: #fff;
+      font-size: 1.3em;
+      font-weight: bold;
+      margin: 30px 0;
+      border-radius: 10px;
     }
-    .image-banner {
-      width: 100%;
-      height: 300px;
-      background-image: url('https://images.unsplash.com/photo-1586190848861-99aa4a171e90');
-      background-size: cover;
-      background-position: center;
-      margin-bottom: 20px;
+    .footer {
+      background-color: #1c1c1c;
+      color: #888;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
     }
   </style>
 </head>
@@ -71,11 +81,11 @@
     <p><em>Επιστροφή στην παράδοση με νέες εμπειρίες και γεύσεις</em><br>Πίτσα στον ξυλοφούρνο!!</p>
   </header>
 
-  <div class="image-banner"></div>
+  <div class="banner"></div>
 
   <div class="section">
     <div class="pizza-month">
-      Pizza του Μήνα: Δοκίμασε την "Lava Special" με καυτερή σάλτσα και πεπερόνι
+      Πίτσα του Μήνα: "Lava Special" με πεπερόνι, καυτερή σάλτσα και βασιλικό!
     </div>
 
     <div class="menu-category">
@@ -83,16 +93,20 @@
       <ul>
         <li>Margherita - 8€ / 10€</li>
         <li>Special - 8.5€ / 10.5€</li>
-        <li>Napoli - 9€ / 11€</li>
+        <li>4 Τυριά - 9€ / 11€</li>
+        <li>Ελληνική - 9€ / 11€</li>
+        <li>Vezouvios - 9.5€ / 11.5€</li>
+        <li>Vegan - 8.5€ / 10.5€</li>
+        <li>Vegetarian - 8.5€ / 10.5€</li>
       </ul>
     </div>
 
     <div class="menu-category">
       <h2>Premium Πίτσες</h2>
       <ul>
-        <li>Etna - 10€ / 12€</li>
-        <li>Truffle Lava - 11.5€ / 13.5€</li>
-        <li>Vezouvio Deluxe - 12€ / 14€</li>
+        <li>Προσούτο - Ρόκα - 11.5€ / 13.5€</li>
+        <li>Τρούφα - Μανιτάρια - 12€ / 14€</li>
+        <li>Μορταδέλα - Πιστάτσιο - 12.5€ / 14.5€</li>
       </ul>
     </div>
 
@@ -128,6 +142,10 @@
         <li>Combo Πίτσα + Σαλάτα + Ποτό = 13.90€</li>
       </ul>
     </div>
+  </div>
+
+  <div class="footer">
+    © 2024 VEZOUVIOS | Πίτσα στον ξυλόφουρνο με πάθος και αυθεντικότητα
   </div>
 </body>
 </html>
